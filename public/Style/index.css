@@ -1,0 +1,49 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(to top,#27be85,#27b4be);
+    height: 100vh;
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 80vh;
+    background-color: #3a13eb57;
+    border-radius: .5vh;
+    border: 2px solid #3a13eb57;
+
+}
+
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    height: 50vh;
+    text-align: center;
+}
+input{
+    width: 60%;
+    height: 2vh;
+    padding: .5vh;
+    margin: .3vh;
+    border-radius: .2vh;
+    text-align: center;
+    font-size: 1.5vh;
+}
+input[type="submit"]{
+    padding: 0vh;
+}
+
+h1{
+    color: #ffff;
+}
